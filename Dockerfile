@@ -3,6 +3,7 @@ FROM store/oracle/serverjre:8
 RUN yum -y install tar
 RUN yum -y install gzip
 RUN yum -y install git
+RUN yum -y install bzip2
 
 ARG MAVEN_VERSION=3.5.2
 ARG USER_HOME_DIR="/root"
